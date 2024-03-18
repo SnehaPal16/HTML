@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="name">NAME:</label>
+        <input type="text" id="name">
+        
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email">
+        
+        <label for="phone">PHONE:</label>
+        <input type="tel" id="phone">
+        
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" id="dob">
+        
+        <label for="gender">GENDER: </label>
+        <label for="g1">male</label>
+        <input type="radio" id="g1" name="gen">
+        <label for="g2">female</label>
+        <input type="radio" id="g2" name="gen">
+        <label for="g3">others</label>
+        <input type="radio" id="g3" name="gen">
+        
+        <label for="country">COUNTRY</label>
+        <select name="ctry" id="country">
+            <option value="c1">A</option>
+            <option value="c2">B</option>
+            <option value="c3">C</option>
+            <option value="c4">D</option>
+            <option value="c5">E</option>
+            <option value="c6">F</option>
+            <option value="c7">G</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>ADDRESS</legend>
+        <label for="street">STREET:</label>
+        <input type="text" id="street">
+        
+        <label for="city">CITY:</label>
+        <input type="text" id="city">
+        
+        <label for="state">STATE:</label>
+        <input type="text" id="state">
+        
+        <label for="zc">ZIP CODE:</label>
+        <input type="text" id="zc">
+
+        <fieldset>
+            <legend>ADDITIONAL INFORMATION</legend>
+                <label for="comm">COMMENTS</label>
+                <textarea name="xyz" id="comm" cols="30" rows="10" placeholder="add addition comments"></textarea>
+                <label for="cm">I agree to what i have written</label>
+                <input type="radio" id="cm">
+        </fieldset>
+    </fieldset>
+    <h2>table with bookmarks</h2>
+    <table border="1">
+        <thead>
+            <th>VIDEO NO.</th>
+            <th>VIDEO LINK</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td><a href="#b1">dbms</a></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td><a href="#b2">os</a></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td><a href="#b3">dsa</a></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td><a href="#b4">cpp</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="b1">
+        <h3>DBMS</h3>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="b2">
+        <H3>OS</H3>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <div id="b3">
+        <H3>DSA</H3>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <div id="b4">
+        <H3>CPP</H3>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/_TpOHMCODXo" frameborder="1"></iframe></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
